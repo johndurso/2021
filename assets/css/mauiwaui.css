@@ -293,10 +293,12 @@ section h2 {
 #projects ul li {
     margin-bottom: clamp(1.5rem, 4vw, 3rem);
     margin-left: 30px;
-    --zigzag: 5px;
     padding-left: 20px;
-    margin-bottom: 30px;
     border-left: 3px solid var(--darkBlue);
+}
+
+body[data-theme="dark"] #services ul li {
+    border-left: 3px solid var(--lightBlue);
 }
 
 #blog ul li:last-child {
