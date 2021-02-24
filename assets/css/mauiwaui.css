@@ -279,11 +279,13 @@ section h2 {
     margin: 15px 0;
     border-radius: 5px;
     transition: var(--transition);
+    text-shadow: 0 0 3px transparent;
 }
 
 #blog a.viewAll:hover,
 #blog a.viewAll:focus {
     color: var(--blue);
+    text-shadow: 0 0 3px #aaa;
 }
 
 body[data-theme="dark"] #blog a.viewAll,
@@ -294,6 +296,7 @@ body[data-theme="dark"] #blog a.viewAll {
 body[data-theme="dark"] #blog a.viewAll:hover,
 body[data-theme="dark"] #blog a.viewAll:focus {
     color: var(--blue);
+    text-shadow: 0 0 3px #000;
 }
 #blog ul li,
 #services ul li {
