@@ -290,7 +290,7 @@ section h2 {
 
 body[data-theme="dark"] #blog a.viewAll,
 body[data-theme="dark"] #blog a.viewAll {
-    color: var(--darkText);
+    color: var(--lightBlue);
     background-color: var(--blue);
 }
 
