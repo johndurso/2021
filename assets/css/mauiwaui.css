@@ -284,8 +284,8 @@ section h2 {
 
 #blog a.viewAll:hover,
 #blog a.viewAll:focus {
-    color: var(--blue);
-    text-shadow: 0 0 3px #aaa;
+    color: var(--darkBlue);
+    text-shadow: 0 0 3px #777;
 }
 
 body[data-theme="dark"] #blog a.viewAll,
