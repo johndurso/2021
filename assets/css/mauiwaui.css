@@ -134,7 +134,7 @@ body[data-theme="dark"] ul.navigationMenu li a {
 }
 
 body[data-theme="dark"] ul.navigationMenu li a:hover {
-    background-color: var(--darkBlue);
+    background-color: var(--lightBlue);
 }
 
 /* ========================================== */
