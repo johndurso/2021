@@ -315,25 +315,25 @@ body[data-theme="dark"] #blog ul li {
     margin-bottom: clamp(3rem, 4vw, 4rem);
 }
 
-#blog ul li a {
+#blog a {
     color: #000;
     background-color: rgba(0,0,0,0.02);
 }
 
-body[data-theme="dark"] #blog ul li a {
+body[data-theme="dark"] #blog a {
     color: var(--lightBlue);
     background-color: rgba(255,255,255,.02);
 }
 
-#blog ul li a:hover,
-#blog ul li a:focus {
+#blog a:hover,
+#blog a:focus {
     background-color: rgba(0,0,0,0.2);
 }
 
-body[data-theme="dark"] #blog ul li a:hover,
-body[data-theme="dark"] #blog ul li a:focus {
-    color: var(--lightBlue);
-    background-color: var(--darkBlue);
+body[data-theme="dark"] #blog a:hover,
+body[data-theme="dark"] #blog a:focus {
+    color: var(--lightText);
+    background-color: var(--lightBlue);
 }
 
 #blog ul li span {
