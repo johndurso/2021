@@ -119,33 +119,22 @@ ul.navigationMenu li a {
     position: relative;
     margin: 0 10px;
     padding: 5px;
-    color: #e5e5e5;
+    color: var(--lightText);
+    background-color: transparent;
     text-decoration: none;
     font-size: clamp(1rem, 2vw, 1.5rem);
 }
 
+ul.navigationMenu li a:hover {
+    background-color: var(--blue)
+}
+
 body[data-theme="dark"] ul.navigationMenu li a {
-    text-shadow: 0 0 8px #000;
+    color: var(--darkText)
 }
 
-ul.navigationMenu li a::before {
-    content: '';
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    display: block;
-    width: 0;
-    height: 1px;
-    background-color: var(--lightText);
-    transition: var(--transition);
-}
-
-body[data-theme="dark"] ul.navigationMenu li a::before {
-    background-color: var(--darkText);
-}
-
-ul.navigationMenu li a:hover::before{
-    width: 100%;
+body[data-theme="dark"] ul.navigationMenu li a:hover {
+    background-color: var(--lightBlue);
 }
 
 /* ========================================== */
@@ -272,16 +261,6 @@ section h2 {
 
 /* ========================================== */
 
-body[data-theme="dark"] #blog a.viewAll,
-body[data-theme="dark"] #blog a.viewAll {
-    color: var(--lightBlue);
-}
-
-body[data-theme="dark"] #blog a.viewAll:hover,
-body[data-theme="dark"] #blog a.viewAll:focus {
-    color: var(--blue);
-    text-shadow: 0 0 3px #000;
-}
 #blog ul li,
 #services ul li {
     margin-bottom: clamp(1.5rem, 4vw, 3rem);
@@ -302,6 +281,7 @@ body[data-theme="dark"] #blog ul li {
 #blog a {
     color: #000;
     background-color: rgba(0,0,0,0.02);
+    padding: 5px;
 }
 
 body[data-theme="dark"] #blog a {
