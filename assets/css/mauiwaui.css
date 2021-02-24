@@ -275,7 +275,7 @@ section h2 {
 #blog a.viewAll {
     text-decoration: none;
     color: var(--lightText);
-    background-color: var(--blue);
+    background-color: var(--darkBlue);
     padding: 15px;
     margin: 15px 0;
     border-radius: 5px;
@@ -285,19 +285,30 @@ section h2 {
 #blog a.viewAll:hover,
 #blog a.viewAll:focus {
     color: var(--darkText);
-    background-color: var(--darkBlue);
+    background-color: var(--blue);
 }
 
+body[data-theme="dark"] #blog a.viewAll,
+body[data-theme="dark"] #blog a.viewAll {
+    color: var(--darkText);
+    background-color: var(--blue);
+}
+
+body[data-theme="dark"] #blog a.viewAll:hover,
+body[data-theme="dark"] #blog a.viewAll:focus {
+    color: var(--lightText);
+    background-color: var(--lightBlue);
+}
 #blog ul li,
-#services ul li,
-#projects ul li {
+#services ul li {
     margin-bottom: clamp(1.5rem, 4vw, 3rem);
     margin-left: 30px;
     padding-left: 20px;
     border-left: 3px solid var(--darkBlue);
 }
 
-body[data-theme="dark"] #services ul li {
+body[data-theme="dark"] #services ul li,
+body[data-theme="dark"] #blog ul li {
     border-left: 3px solid var(--lightBlue);
 }
 
