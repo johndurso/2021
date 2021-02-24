@@ -1,11 +1,5 @@
 const allBlogPosts = [
     {
-      date: "feb 19, 2021",
-      title: "Being a fucking boss",
-      description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae alias mollitia totam? Tenetur corporis id impedit omnis, pariatur minima neque.",
-      link: "being-a-fucking-boss"
-    },
-    {
       date: "feb 11, 2021",
       title: "Prototyping with Figma",
       description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae alias mollitia totam? Tenetur corporis id impedit omnis, pariatur minima neque.",
