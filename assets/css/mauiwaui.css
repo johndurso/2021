@@ -275,7 +275,6 @@ section h2 {
 #blog a.viewAll {
     text-decoration: none;
     color: var(--lightText);
-    background-color: var(--darkBlue);
     padding: 15px;
     margin: 15px 0;
     border-radius: 5px;
@@ -284,20 +283,17 @@ section h2 {
 
 #blog a.viewAll:hover,
 #blog a.viewAll:focus {
-    color: var(--darkText);
-    background-color: var(--blue);
+    color: var(--blue);
 }
 
 body[data-theme="dark"] #blog a.viewAll,
 body[data-theme="dark"] #blog a.viewAll {
     color: var(--lightBlue);
-    background-color: var(--darkBlue);
 }
 
 body[data-theme="dark"] #blog a.viewAll:hover,
 body[data-theme="dark"] #blog a.viewAll:focus {
-    color: var(--lightText);
-    background-color: var(--lightBlue);
+    color: var(--blue);
 }
 #blog ul li,
 #services ul li {
