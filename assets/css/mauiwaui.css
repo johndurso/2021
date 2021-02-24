@@ -291,7 +291,7 @@ section h2 {
 body[data-theme="dark"] #blog a.viewAll,
 body[data-theme="dark"] #blog a.viewAll {
     color: var(--lightBlue);
-    background-color: var(--blue);
+    background-color: var(--darkBlue);
 }
 
 body[data-theme="dark"] #blog a.viewAll:hover,
