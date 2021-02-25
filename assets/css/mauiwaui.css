@@ -171,27 +171,27 @@ body[data-theme="dark"] ul.navigationMenu li a:hover {
 
 .socialMenu a span {
     display: block;
-    color: #fff;
-    background-color: #000;
+    color: #000;
+    background-color: #fff;
     border-radius: 5px;
     text-align: center;
     padding: 3px;
     border: 1px solid #000;
 }
 
-.socialMenu a:hover span,
-.socialMenu a:focus span {
-    color: #000;
-    background-color: #fff;
+.socialMenu span svg {
+    fill: #000;
+    width: 50px;
 }
 
-.socialMenu a:hover img,
-.socialMenu a:focus img {
-    transform: rotate(360deg);
+.socialMenu a:focus span,
+.socialMenu a:hover span {
+    color: #fff;
+    background-color: #000;
 }
-
-.iconKeyed {
-    opacity: 0.5;
+.socialMenu a:hover span svg,
+.socialMenu a:focus span svg{
+    fill: #fff;
 }
 
 .open {
