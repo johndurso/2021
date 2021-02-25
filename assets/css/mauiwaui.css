@@ -58,6 +58,7 @@ body[data-theme="dark"] a:visited {
 body {
     font-family: 'Roboto Mono', monospace;
     min-height: 100vh;
+    transition: var(--transitionLong);
 }
 
 body[data-theme="light"] {
