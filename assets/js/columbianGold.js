@@ -68,3 +68,7 @@ function clickHandler(e) {
     behavior: "smooth"
   });
 }
+
+document.getElementById("back").innerHTML = `
+  <a class="backToAllPosts" href="../blog.html">< Back to all posts</a>
+`;

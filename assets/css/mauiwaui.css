@@ -546,56 +546,39 @@ body[data-theme="dark"] .blog ul li span {
     color: var(--darkText);
 }
 
-a.backToAllPosts {
+a.backToAllPosts,
+.blogLink a {
     display: inline-block;
-    margin-top: 50px;
-    padding: 20px;
+    color: var(--darkBlue);
+    background-color: rgba(0,0,0,0.05);
+    margin-top: 15px;
+    padding: 10px 15px;
     font-weight: bold;
     text-decoration: none;
     border-radius: 10px;
     transition: var(--transition);
 }
 
-body[data-theme="dark"] a.backToAllPosts {
+a.backToAllPosts:hover,
+a.backToAllPosts:focus,
+.blogLink a:hover,
+.blogLink a:focus {
+    background-color: rgba(0,0,0,0.2);
+}
+
+body[data-theme="dark"] a.backToAllPosts,
+body[data-theme="dark"] .blogLink a {
     color: var(--lightBlue);
     background-color: rgba(255,255,255,0.05);
 }
 
 body[data-theme="dark"] a.backToAllPosts:hover,
-body[data-theme="dark"] a.backToAllPosts:focus {
+body[data-theme="dark"] a.backToAllPosts:focus,
+body[data-theme="dark"] .blogLink a:hover,
+body[data-theme="dark"] .blogLink a:focus {
     background-color: rgba(255,255,255,0.2);
-}
-
-body[data-theme="light"] a.backToAllPosts {
-    color: var(--darkBlue);
-    background-color: rgba(0,0,0,0.05);
-}
-
-body[data-theme="light"] a.backToAllPosts:hover,
-body[data-theme="light"] a.backToAllPosts:focus {
-    background-color: rgba(0,0,0,0.2);
 }
 
 #recentBlogPosts {
     color: transparent;
-}
-
-p.blogLink a {
-    display: inline-block;
-    margin-top: 10px;
-    padding: 10px 20px;
-    border-radius: 10px;
-    color: var(--lightText);
-    background-color: rgba(255,255,255,0.25);
-    text-decoration: none;
-}
-
-p.blogLink a:hover,
-p.blogLink a:hover {
-    color: var(--darkText);
-}
-
-body[data-theme="dark"] p.blogLink a {
-    color: (var(--darkText);
-    background-color: rgba(255,255,255,0.25);
 }

@@ -31,7 +31,7 @@ function postTemplate(blogPost) {
         <p class="postDate">${blogPost.date}</p>
         <h2>${blogPost.title}</h2>
         <p class="description">${blogPost.description}</p>
-        <p class="blogLink"><a href="/blog/${blogPost.link}.html">Read post > </a></p>
+        <p class="blogLink"><a href="blog/${blogPost.link}.html">Read post > </a></p>
     </div>
   `;
 }
@@ -44,7 +44,7 @@ document.getElementById("allBlogPosts").innerHTML = `
 
 
 function previewTemplate(blogPost) {
-  return `<li><span>${blogPost.date}</span> <a href="/blog/${blogPost.link}.html">${blogPost.title}</a></li>`;
+  return `<li><span>${blogPost.date}</span> <a href="blog/${blogPost.link}.html">${blogPost.title}</a></li>`;
 }
 
 
