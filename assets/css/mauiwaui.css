@@ -256,6 +256,7 @@ section h2 {
     --fontSize: clamp(2rem, 4vw, 3rem);
     font-size: var(--fontSize);
     line-height: var(--fontSize);
+    padding-top: 20px;
     width: 100%;
 }
 
