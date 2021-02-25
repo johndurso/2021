@@ -351,6 +351,12 @@ body[data-theme="dark"] #blog a:focus {
     letter-spacing: 2px;
 }
 
+@media screen and (max-width: 990px) {
+    #blog ul li, #services ul li {
+        margin-left: 0;
+    }
+}
+
 /* ========================================== */
 
 #services {
