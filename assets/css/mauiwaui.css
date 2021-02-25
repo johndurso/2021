@@ -16,6 +16,10 @@
     --transitionLong: 0.75s ease all;
 }
 
+html {
+	scroll-behavior: smooth;
+}
+
 :focus {
     outline: 2px solid deepskyblue;
 }
@@ -120,21 +124,19 @@ ul.navigationMenu li a {
     position: relative;
     margin: 0 10px;
     padding: 5px;
-    color: var(--lightText);
+    color: var(--darkText);
     background-color: transparent;
     text-decoration: none;
     font-size: clamp(1rem, 2vw, 1.5rem);
 }
 
 ul.navigationMenu li a:hover {
-    background-color: var(--blue)
-}
-
-body[data-theme="dark"] ul.navigationMenu li a {
-    color: var(--darkText)
+    color: var(--lightText);
+    background-color: var(--lightBlue)
 }
 
 body[data-theme="dark"] ul.navigationMenu li a:hover {
+    color: var(--darkText);
     background-color: var(--darkBlue);
 }
 
@@ -583,4 +585,18 @@ body[data-theme="dark"] .blogLink a:focus {
 
 #recentBlogPosts {
     color: transparent;
+}
+
+
+
+
+
+@media screen and (prefers-reduced-motion: reduce) {
+	:root {
+        --transition: none;
+        --transitionLong: none;
+    }
+    html {
+		scroll-behavior: auto;
+	}
 }

@@ -1,3 +1,22 @@
+// //smooth scroll
+// const links = document.querySelectorAll("nav ul.navigationMenu li a");
+
+// for (const link of links) {
+//   link.addEventListener("click", clickHandler);
+// }
+
+// function clickHandler(e) {
+//   console.log("clicked!");
+//   e.preventDefault();
+//   const href = this.getAttribute("href");
+//   const offsetTop = document.querySelector(href).offsetTop;
+
+//   scroll({
+//     top: offsetTop,
+//     behavior: "smooth"
+//   });
+// };
+
 //open and close social menu
 
 var john = document.getElementById("john");
@@ -36,22 +55,3 @@ document.getElementById("innerNav").innerHTML = `
   </ul>
 </div>
 `;
-
-
-//smooth scroll
-const links = document.querySelectorAll("nav ul.navigationMenu li a");
-
-for (const link of links) {
-  link.addEventListener("click", clickHandler);
-}
-
-function clickHandler(e) {
-  e.preventDefault();
-  const href = this.getAttribute("href");
-  const offsetTop = document.querySelector(href).offsetTop;
-
-  scroll({
-    top: offsetTop,
-    behavior: "smooth"
-  });
-};

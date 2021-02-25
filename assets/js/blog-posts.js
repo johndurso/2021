@@ -50,7 +50,7 @@ document.getElementById("allBlogPosts").innerHTML = `
 
 
 function previewTemplate(blogPost) {
-  return `<li><span>${blogPost.date}</span> <a href="blog/${blogPost.link}.html">${blogPost.title}</a></li>`;
+  return `<li><span>${blogPost.date}</span> <a href="blog/${blogPost.link}.html" tabindex="0">${blogPost.title}</a></li>`;
 }
 
 

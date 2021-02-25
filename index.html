@@ -12,11 +12,11 @@
 <body data-theme="light">
     <nav role="navigation">
         <ul class="navigationMenu" aria-label="main navigation">
-            <li><a href="#blog">blog</a></li>
-            <li><a href="#services">services</a></li>
-            <li><a href="#contact">contact</a></li>
+            <li><a href="#blog"><span tabindex="1">blog</span></a></li>
+            <li><a href="#services"><span tabindex="2">services</span></a></li>
+            <li><a href="#contact"><span tabindex="3">contact</span></a></li>
             <li>
-                <button class="js-theme-btn theme-button" onclick="setTheme()" onkeyup="setTheme()" tabindex="0">
+                <button class="js-theme-btn theme-button" onclick="setTheme()" onkeyup="setTheme()" tabindex="4">
                     <span class="moon">
                         <img src="assets/images/moon.svg" width="35" alt="Moon icon for dark mode">
                     </span>
@@ -26,24 +26,24 @@
                 </button>
             </li>
         </ul>
-        <div class="john" id="john" role="button" aria-pressed="false" aria-label="press to open social media" onfocus="openMenu()" onblur="closeMenu()" onclick="toggleMenu()" tabindex="0">
+        <div class="john" id="john" role="button" aria-pressed="false" aria-label="press to open social media" onfocus="openMenu()" onblur="closeMenu()" onclick="toggleMenu()" tabindex="5">
             <img src="assets/images/globe.svg" alt="Icon of globe with magnifying glass" width="50">
         </div>
         <ul class="socialMenu" id="socialMenu" aria-label="social media navigation">
             <li>
-                <a target="_blank" href="https://www.linkedin.com/in/johnkyrondurso/" title="Visit John Durso's LinkedIn profile" onfocus="openMenu()" onblur="closeMenu()" tabindex="0">
+                <a target="_blank" href="https://www.linkedin.com/in/johnkyrondurso/" title="Visit John Durso's LinkedIn profile" onfocus="openMenu()" onblur="closeMenu()">
                     <img src="assets/images/linkedin.svg" alt="LinkedIn logo" title="Visit John Durso's LinkedIn!" width="40">
                     <span>LinkedIn</span>
                 </a>
             </li>
             <li>
-                <a target="_blank" href="https://github.com/johndurso" title="Visit John Durso's GitHub profile" onfocus="openMenu()" onblur="closeMenu()" tabindex="0">
+                <a target="_blank" href="https://github.com/johndurso" title="Visit John Durso's GitHub profile" onfocus="openMenu()" onblur="closeMenu()">
                     <img src="assets/images/github.svg" alt="GitHub logo" title="Visit John Durso's GitHub!" width="40">
                     <span>GitHub</span>
                 </a>
             </li>
             <li>
-                <a target="_blank" href="https://codepen.io/johndursodev" title="Visit John Durso's CodePen profile" onfocus="openMenu()" onblur="closeMenu()" tabindex="0">
+                <a target="_blank" href="https://codepen.io/johndursodev" title="Visit John Durso's CodePen profile" onfocus="openMenu()" onblur="closeMenu()">
                     <img src="assets/images/codepen.svg" alt="CodePen logo" title="Visit John Dursos' CodePen!" width="40">
                     <span>CodePen</span>
                 </a>
