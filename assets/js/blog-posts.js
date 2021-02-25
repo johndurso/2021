@@ -1,5 +1,11 @@
 const allBlogPosts = [
     {
+      date: "feb 17, 2021",
+      title: "Working with negative margins",
+      description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae alias mollitia totam? Tenetur corporis id impedit omnis, pariatur minima neque.",
+      link: "working-with-negative-margins"
+    },
+    {
       date: "feb 11, 2021",
       title: "Prototyping with Figma",
       description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae alias mollitia totam? Tenetur corporis id impedit omnis, pariatur minima neque.",
