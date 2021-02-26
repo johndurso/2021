@@ -11,11 +11,11 @@ navMenu.innerHTML = `
     <li class="tertiary"><a href="../index.html"><span tabindex="0">back home</span></a></li>
     <li>
         <button class="js-theme-btn theme-button" onclick="setTheme()" onkeyup="setTheme()" tabindex="4">
-            <span class="moon">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 34.74075 35.71194"><defs><style>.a{font-size:10px;font-family:PTMono-Bold, PT Mono;font-weight:700;}.a,.c{fill:#fff;}.b{fill:none;}.b,.c{stroke:#fff;stroke-miterlimit:10;}</style></defs><text class="a" transform="translate(5.3709 8.5001)">DARK</text><rect class="b" x="0.5" y="11.39532" width="33.74075" height="17.32805" rx="8.66402"/><circle class="c" cx="25.88144" cy="20.05934" r="6.44248"/></svg>
+            <span class="dark">
+              Dark<br>mode
             </span>
-            <span class="sun">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 34.74075 35.71194"><defs><style>.a{font-size:10px;font-family:PTMono-Bold, PT Mono;font-weight:700;}.b{fill:none;}.b,.c{stroke:#000;stroke-miterlimit:10;}</style></defs><text class="a" transform="translate(2.3709 8.5001)">LIGHT</text><rect class="b" x="0.5" y="11.39532" width="33.74075" height="17.32805" rx="8.66402"/><circle class="c" cx="8.90718" cy="20.05934" r="6.44248"/></svg>
+            <span class="light">
+              Light<br>mode
             </span>
         </button>
     </li>
